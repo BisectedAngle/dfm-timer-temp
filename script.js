@@ -13,22 +13,22 @@ const currentDate = new Date()
 if (currentDate < new Date('Jul 03, 2024, 00:00:00 GMT+0800')){
     targetDate = new Date('Jul 03, 2024, 00:00:00 GMT+0800').getTime()
     actualdfms = 6
-} else if (currentDate > new Date('Jul 03, 2024, 00:00:00 GMT+0800' && currentDate < new Date('Jul 10, 2024, 00:00:00 GMT+0800'))){
+} else if (currentDate > new Date('Jul 03, 2024, 00:00:00 GMT+0800') && currentDate < new Date('Jul 10, 2024, 00:00:00 GMT+0800')){
     targetDate = new Date('Jul 10, 2024, 00:00:00 GMT+0800').getTime()
-    actualdfms = 5
-} else if (currentDate > new Date('Jul 10, 2024, 00:00:00 GMT+0800' && currentDate < new Date('Jul 17, 2024, 00:00:00 GMT+0800'))){
+    actualdfms = 5 
+} else if (currentDate > new Date('Jul 10, 2024, 00:00:00 GMT+0800') && currentDate < new Date('Jul 17, 2024, 00:00:00 GMT+0800')){
     targetDate = new Date('Jul 17, 2024, 00:00:00 GMT+0800').getTime()
     actualdfms = 4
-} else if (currentDate > new Date('Jul 17, 2024, 00:00:00 GMT+0800' && currentDate < new Date('Jul 24, 2024, 00:00:00 GMT+0800'))){
+} else if (currentDate > new Date('Jul 17, 2024, 00:00:00 GMT+0800') && currentDate < new Date('Jul 24, 2024, 00:00:00 GMT+0800')){
     targetDate = new Date('Jul 24, 2024, 00:00:00 GMT+0800').getTime()
     actualdfms = 3
-} else if (currentDate > new Date('Jul 24, 2024, 00:00:00 GMT+0800' && currentDate < new Date('Jul 31, 2024, 00:00:00 GMT+0800'))){
+} else if (currentDate > new Date('Jul 24, 2024, 00:00:00 GMT+0800') && currentDate < new Date('Jul 31, 2024, 00:00:00 GMT+0800')){
     targetDate = new Date('Jul 31, 2024, 00:00:00 GMT+0800').getTime()
     actualdfms = 2
-} else if (currentDate > new Date('Jul 31, 2024, 00:00:00 GMT+0800' && currentDate < new Date('Aug 7, 2024, 00:00:00 GMT+0800'))){
+} else if (currentDate > new Date('Jul 31, 2024, 00:00:00 GMT+0800') && currentDate < new Date('Aug 7, 2024, 00:00:00 GMT+0800')){
     targetDate = new Date('Aug 7, 2024, 00:00:00 GMT+0800').getTime()
     actualdfms = 1
-} else if (currentDate > new Date('Aug 7, 2024, 00:00:00 GMT+0800' && currentDate < new Date('Aug 14, 2024, 00:00:00 GMT+0800'))){
+} else if (currentDate > new Date('Aug 7, 2024, 00:00:00 GMT+0800') && currentDate < new Date('Aug 14, 2024, 00:00:00 GMT+0800')){
     targetDate = new Date('Aug 14, 2024, 00:00:00 GMT+0800').getTime()
     actualdfms = 0
 } 
